@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Lato", sans-serif;
+  margin: 0;
+}
+
+// containers
+@import "../components/containers/Hero/Hero.scss";
