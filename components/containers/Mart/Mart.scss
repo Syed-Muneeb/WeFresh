@@ -1,0 +1,10 @@
+.mart__img {
+  position: relative;
+  .mart__bg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5%;
+    z-index: -1;
+  }
+}
