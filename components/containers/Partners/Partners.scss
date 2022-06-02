@@ -1,0 +1,36 @@
+.partners__text {
+  position: relative;
+  .partners__text-bg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.partners__logos {
+  position: relative;
+
+  .logo {
+    max-width: 130px;
+    height: auto;
+  }
+  .logo__ab {
+    position: absolute;
+  }
+  .eleven {
+    top: -65%;
+    left: 10%;
+  }
+  .makro {
+    left: 10%;
+    top: 75%;
+  }
+  .true {
+    top: -35%;
+    right: 0%;
+  }
+  .freshmart {
+    right: 5%;
+  }
+}
