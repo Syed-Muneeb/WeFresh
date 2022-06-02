@@ -1,4 +1,5 @@
 import React,{Fragment} from "react";
+import Footer from "../containers/Footer/Footer";
 import Nav from "../containers/Nav/Nav";
 
 const Layout = ({ children }) => {
@@ -6,6 +7,7 @@ const Layout = ({ children }) => {
     <Fragment>
       <Nav />
       {children}
+      <Footer/>
     </Fragment>
   );
 };

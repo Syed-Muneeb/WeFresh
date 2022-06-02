@@ -7,6 +7,7 @@ import Find from "../components/containers/Find/Find";
 import Partners from "../components/containers/Partners/Partners";
 import Questions from "../components/containers/Questions/Questions";
 import GetApp from "../components/containers/Get-App/GetApp";
+import WeFresh from "../components/containers/We-Fresh/WeFresh";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Partners/>
       <Questions/>
       <GetApp/>
+      <WeFresh/>
     </Fragment>
   );
 }
