@@ -5,7 +5,7 @@ const Services = () => {
       <div className="container max-w-5xl px-6 py-8 mx-auto bg-items-center h-max-full">
         <div className="services__heading">
           <h2 className="text-4xl text-center text-blue-300 mb-14">
-            We've more
+            We&apos;ve more
             <strong className="text-blue-400"> services </strong>
           </h2>
 

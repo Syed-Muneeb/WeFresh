@@ -12,7 +12,7 @@ const Questions = () => {
               Got questions?
             </h2>
             <p className="text-sm text-center text-slate-400">
-              perfect, we've got answers!
+              perfect, we&apos;ve got answers!
             </p>
           </div>
 
