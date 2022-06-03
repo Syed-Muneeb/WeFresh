@@ -6,7 +6,6 @@ const Questions = () => {
   return (
     <section className="section__questions">
       <div className="container flex flex-col  gap-y-20 justify-between items-center max-w-5xl py-24 px-6 mx-auto">
-
         <div className="got__question w-full">
           <div className="heading mb-7">
             <h2 className="text-3xl text-blue-400 mb-4 text-center ">
@@ -40,24 +39,27 @@ const Questions = () => {
         </div>
 
         <div className="still__questions w-3/5	">
-        <div className="heading mb-7">
+          <div className="heading mb-7">
             <h2 className="text-3xl text-blue-400 mb-4 text-center ">
-            Still have a question?
+              Still have a question?
             </h2>
             <p className="text-sm text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
             </p>
           </div>
 
-          <div className="contact__box flex justify-between">
-              <ContactBox primary="+66 8959888" secondary="Lorem ipsum dolor sit amet, consectetur" />
-              <ContactBox primary="Support@service.com" secondary="Lorem ipsum dolor sit amet, consectetur" />
-               
+          <div className="contact__box flex flex-col md:flex-row justify-between gap-10">
+            <ContactBox
+              primary="+66 8959888"
+              secondary="Lorem ipsum dolor sit amet, consectetur"
+            />
+            <ContactBox
+              primary="Support@service.com"
+              secondary="Lorem ipsum dolor sit amet, consectetur"
+            />
           </div>
-
         </div>
-
-
       </div>
     </section>
   );

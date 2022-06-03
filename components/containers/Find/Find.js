@@ -5,7 +5,7 @@ import Input from "../../Input/Input";
 const Find = () => {
   return (
     <section className="section__find">
-      <div className="container flex justify-between items-center max-w-5xl py-24 px-6 mx-auto">
+      <div className="container flex flex-col md:flex-row gap-24 justify-between items-center max-w-5xl py-24 px-6 mx-auto">
         <div className="text__actions">
           <div>
             <h3 className="text-blue-300 text-4xl mb-8">
@@ -19,7 +19,7 @@ const Find = () => {
         </div>
         <div className="find__img">
           <img
-            className="w-10/12 h-auto ml-auto"
+            className="w-10/12 h-auto mx-auto md:ml-auto"
             src="/assets/img/find_image.svg"
             alt=""
           />
@@ -30,8 +30,7 @@ const Find = () => {
           />
         </div>
       </div>
-
-      <img src="/assets/img/find_side.svg" className="find__side-img" alt="" />
+      {/* <img src="/assets/img/find_side.svg" className="find__side-img " alt="" /> */}
     </section>
   );
 };

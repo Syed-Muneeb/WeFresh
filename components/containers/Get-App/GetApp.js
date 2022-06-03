@@ -12,7 +12,7 @@ const GetApp = () => {
           eiusmod tempor incididunt ut labore et dolore{" "}
         </p>
 
-        <div className="download__button flex justify-center items-start gap-4 mt-6">
+        <div className="download__button flex  flex-col sm:flex-row  justify-center items-center sm:items-start gap-4 mt-6">
           <img
             src="/assets/img/apple_button.svg"
             className="inline-block"

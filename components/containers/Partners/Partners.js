@@ -3,9 +3,9 @@ import React from "react";
 const Partners = () => {
   return (
     <div className="section__partners">
-      <div className="container flex flex-col md:flex-row gap-y-60 justify-between items-center max-w-5xl py-44 px-6 mx-auto">
+      <div className="container flex flex-col md:flex-row gap-y-60 justify-between items-center max-w-5xl  py-44 px-6 mx-auto">
         <div className="partners__text w-full md:w-1/2 ">
-          <div className="w-1/2 mx-auto">
+          <div className="w-1/2 mx-auto my-20  sm:my-32 md:my-0">
             <h3 className="text-blue-300 mb-1 text-3xl">
               Our <strong>Partners</strong>
             </h3>

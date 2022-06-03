@@ -10,11 +10,14 @@
 body {
   font-family: "Open Sans", "Lato", sans-serif;
   margin: 0;
+  // overflow-x: hidden
 }
 
 // containers
 @import "../components/containers/Hero/Hero.scss";
+@import "../components/containers/Nav/Nav.scss";
 @import "../components/containers/Mart/Mart.scss";    
 @import "../components/containers/Find/Find.scss";    
 @import "../components/containers/Partners/Partners.scss";    
 @import "../components/Accordion/Accordion.scss"; 
+@import "./media-queries.scss";

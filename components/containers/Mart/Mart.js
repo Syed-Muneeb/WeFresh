@@ -3,11 +3,11 @@ import MartInfo from "../../Mart-Info/MartInfo";
 const Mart = () => {
   return (
     <section className="mart__section">
-      <div className="conatiner flex justify-between items-center max-w-5xl py-8 px-6 mx-auto">
+      <div className="conatiner flex flex-col md:flex-row justify-between items-center max-w-5xl py-8 px-6 mx-auto">
         <div className="mart__img">
           <img
             src="/assets/img/mart_screen.svg"
-            className="w-10/12 h-auto"
+            className="w-10/12 h-auto mx-auto md:mx-0"
             alt="screen"
           />
           <img src="/assets/img/circle.svg" className="mart__bg " />

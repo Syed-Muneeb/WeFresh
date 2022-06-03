@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+  .partners__text-bg {
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .find__side-img {
+    // top: 100% !important;
+    // transform: translateY(-100%) !important;
+    // right: -30%!important;
+    // width:auto !important;
+    display: none !important;
+  }
+  .mart__bg {
+    left: 0 !important;
+  }
+  .hero__bg {
+    left: 0 !important;
+  }
+
+  .navigation {
+    position: absolute;
+    background-color: #68bae3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    transform: translateY(-100%);
+    z-index: 10;
+
+    transition: all 0.5s ease-in;
+
+    /* Hide the navigation */
+    /* Allows No transition */
+    /* display: none; */
+
+    /* 1) hide the element visually */
+    opacity: 0;
+
+    /* 2) make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) hide it from screen reader */
+    visibility: hidden;
+
+    &.nav-open {
+      transform: translateX(0);
+
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
+    }
+    ul {
+      width: 100%;
+      margin-top: 80px;
+      padding: 0 1.5rem;
+
+      li {
+        font-size: 1.5rem;
+        color: #fff;
+        padding: 0.75rem;
+        border-bottom: 1px solid #d3d2d2;
+        width: 100%;
+      }
+      li:last-child {
+        //   width: 50%;
+        border-bottom: none;
+
+        button {
+          margin-top: 1rem;
+          width: 100%;
+          padding: 0.85rem;
+          background: #e2b238;
+        }
+      }
+    }
+  }
+
+  .hero__text {
+    // position: absolute;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 75%;
+  }
+}

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="section__get-app bg-blue-50">
       <div className="container  max-w-5xl px-6 py-16 mx-auto h-max-full ">
-        <div className="grid grid-cols-5 justify-between">
+        <div className="grid sm:grid-cols-5 gap-10  sm:justify-between">
           <div className="footer__logo">
             <img src="/assets/img/footer_logo.svg" alt="" />
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <p className="text-sm text-slate-400">Lorem ipsum</p>
           </div>
 
-          <div className="service__area flex flex-col gap-2">
+          <div className="service__area flex flex-col items-center gap-2">
             <p className="text-sm mb-2 text-slate-400">Available on</p>
 
             <div className="flex gap-5 logo__container ">
