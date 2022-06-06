@@ -22,7 +22,7 @@ const Partners = () => {
           />
         </div>
 
-        <div className="partners__logos w-1/2">
+        <div className="partners__logos w-10/12 md:w-1/2">
           <img
             className="mx-auto logo"
             src="/assets/img/TrueCoffee.svg"

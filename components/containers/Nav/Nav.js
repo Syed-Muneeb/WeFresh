@@ -19,7 +19,7 @@ const Nav = () => {
           <img src="/assets/img/logo.svg" alt="" />
         </div>
         <nav ref={navigation} className="navigation ">
-          <ul className="flex flex-col md:flex-row gap-5">
+          <ul className="flex flex-col md:flex-row gap-5 cursor-pointer">
             <li>Our App</li>
             <li>For Business</li>
             <li>About us</li>

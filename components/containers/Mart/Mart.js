@@ -13,7 +13,7 @@ const Mart = () => {
           <img src="/assets/img/circle.svg" className="mart__bg " />
         </div>
 
-        <div className="mart__text w-3/6 flex flex-col gap-3">
+        <div className="mart__text w-10/12 md:w-3/6 flex flex-col gap-3">
           <MartInfo
             heading="Lorem ipsum dolor sit"
             text="Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "

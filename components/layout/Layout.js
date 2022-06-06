@@ -5,7 +5,7 @@ import Nav from "../containers/Nav/Nav";
 const Layout = ({ children }) => {
   return (
     <Fragment>
-      <Nav />
+      {/* <Nav /> */}
       {children}
       <Footer/>
     </Fragment>

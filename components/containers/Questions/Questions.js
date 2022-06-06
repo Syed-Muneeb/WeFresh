@@ -38,7 +38,7 @@ const Questions = () => {
           />
         </div>
 
-        <div className="still__questions w-3/5	">
+        <div className="still__questions w-10/12 md:w-3/5	">
           <div className="heading mb-7">
             <h2 className="text-3xl text-blue-400 mb-4 text-center ">
               Still have a question?

@@ -8,18 +8,20 @@ import Partners from "../components/containers/Partners/Partners";
 import Questions from "../components/containers/Questions/Questions";
 import GetApp from "../components/containers/Get-App/GetApp";
 import WeFresh from "../components/containers/We-Fresh/WeFresh";
+import Header_Wrapper from "../components/containers/Header-Wrapper/Header-Wrapper";
 
 export default function Home() {
   return (
     <Fragment>
-      <Hero />
+      <Header_Wrapper />
+      {/* <Hero /> */}
       <Services />
-      <Mart/>
-      <Find/>
-      <Partners/>
-      <Questions/>
-      <GetApp/>
-      <WeFresh/>
+      <Mart />
+      <Find />
+      <Partners />
+      <Questions />
+      <GetApp />
+      <WeFresh />
     </Fragment>
   );
 }
