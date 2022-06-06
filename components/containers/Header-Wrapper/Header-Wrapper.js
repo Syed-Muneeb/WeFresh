@@ -5,6 +5,7 @@ import Nav from "../Nav/Nav";
 const Header_Wrapper = () => {
   return (
     <div className="Header_Wrapper">
+      <div className="small__bg"></div>
       <Nav />
       <Hero />
     </div>

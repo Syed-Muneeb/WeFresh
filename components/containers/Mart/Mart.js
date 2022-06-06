@@ -1,6 +1,6 @@
 import React from "react";
 import MartInfo from "../../Mart-Info/MartInfo";
-const Mart = () => {
+const Mart = ({ features }) => {
   return (
     <section className="mart__section">
       <div className="conatiner flex flex-col md:flex-row justify-between items-center max-w-5xl py-8 px-6 mx-auto">
@@ -14,19 +14,16 @@ const Mart = () => {
         </div>
 
         <div className="mart__text w-10/12 md:w-3/6 flex flex-col gap-3">
-          <MartInfo
-            heading="Lorem ipsum dolor sit"
-            text="Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
-          />
-          <MartInfo
-            heading="Adipiscing elit sed do eiusmod"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
-            bg
-          />
-          <MartInfo
-            heading="Labore et dolore magna aliqua"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
-          />
+          {features.map((item, index) => {
+            return (
+              <MartInfo
+                key={index}
+                heading={item.featureTitle}
+                text={item.featureDescription}
+                bg={++index === 2 ? true : false}
+              />
+            );
+          })}
         </div>
       </div>
     </section>

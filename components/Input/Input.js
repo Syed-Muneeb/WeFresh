@@ -6,7 +6,7 @@ const Input = ({ type, placeholder }) => {
       <input
         className={`${
           type !== "white" ? " bg-cyan-50 " : "bg-white"
-        } py-1 px-2 focus:outline-none rounded border-2`}
+        } py-1 px-2 focus:outline-none text-slate-400 text-[14px] rounded border-2 shadow-none`}
         type="text"
         placeholder={placeholder}
       />

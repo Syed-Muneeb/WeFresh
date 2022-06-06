@@ -3,7 +3,11 @@ import React, { Fragment } from "react";
 const Button = ({ text, onClick }) => {
   return (
     <Fragment>
-      <button onClick={onClick} className="w-24 text-white rounded bg-stone-500">
+      <button
+        onClick={onClick}
+        className="w-24 text-white rounded bg-stone-500"
+        style={{ background: "#FFD476" }}
+      >
         {text}
       </button>
     </Fragment>

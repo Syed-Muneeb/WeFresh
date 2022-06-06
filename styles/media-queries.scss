@@ -82,7 +82,19 @@
   }
 
   .hero__text {
-    // position: absolute;
+    color: #fff;
+  }
+  .small__bg {
+    position: absolute;
+    background-color: #96d5f0;
+    top: 0%;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    // border-bottom-left-radius: 40%;
+    // border-bottom-right-radius: 40%;
+    // -webkit-clip-path: circle(60.0% at 50% 10%);
+    // clip-path: circle(50.0% at 50% 50%);
   }
 }
 
@@ -92,11 +104,14 @@
   }
 }
 
-
 @media screen and (min-width: 1430px) {
-
-  .hero__text-bg{
+  .hero__text-bg {
     display: none;
   }
 }
 
+@media only screen and (max-width: 1429px) and (min-width: 1200px) {
+  .hero__text {
+    color: #fff;
+  }
+}

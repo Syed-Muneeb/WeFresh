@@ -3,11 +3,9 @@ import React, { useRef } from "react";
 const Accordion = ({ title, contentTitle, content }) => {
   const accordion = useRef();
 
-  console.log("testing..!");
   const handleClick = () => {
-    console.log(accordion?.current?.style?.maxHeight);
     if (
-      // !accordion?.current?.style?.maxHeight || 
+      // !accordion?.current?.style?.maxHeight ||
       accordion?.current?.style?.maxHeight !== "0px"
     ) {
       accordion.current.style.maxHeight = "0px";
